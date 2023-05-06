@@ -162,6 +162,8 @@ from airbyte_config_api_client.model.set_workflow_in_attempt_request_body import
 # See configuration.py for a list of all supported configuration parameters.
 configuration = airbyte_config_api_client.Configuration(
     host = "http://localhost:8000/api"
+    username = "username"
+    password = "password"
 )
 
 
@@ -523,33 +525,13 @@ Class | Method | HTTP request | Description
 ## Documentation For Authorization
 
  Authentication schemes defined for the API:
-## bearerAuth
+## basicAuth
 
-- **Type**: Bearer authentication (JWT)
+- **Type**: HTTP basic authentication
 
 
 ## Author
 
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
-contact@airbyte.io
 contact@airbyte.io
 
 ## Notes for Large OpenAPI documents
